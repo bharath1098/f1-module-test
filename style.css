@@ -431,7 +431,7 @@ padding-bottom: 40px;
     }
 
        .nav-mobile{
-        display: flex;
+        display: flex !important;
         justify-content: space-between;
         margin:10px;
         color:#E0D6C2;
@@ -833,7 +833,7 @@ padding-bottom: 40px;
   }
 
    .nav-mobile{
-    display: flex;
+    display: flex !important;
     justify-content: space-between;
     margin:10px;
     color:#E0D6C2;
@@ -847,7 +847,7 @@ padding-bottom: 40px;
 }
 
 .nav-left-m{
-    display: flex;
+    display: flex ;
     margin: 5px ;
     /* gap:7px; */
    width:80%;
@@ -1233,7 +1233,9 @@ padding-bottom: 40px;
     }
 }
 
-
+.nav-mobile{
+    display: none;
+}
 
 
 
