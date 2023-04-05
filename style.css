@@ -424,7 +424,7 @@ padding-bottom: 40px;
 
 
 
- @media (max-width:400px){
+ @media (max-width:500px){
      /* nav */
 
      .nav-container{
@@ -612,13 +612,14 @@ padding-bottom: 40px;
     .main-container-right-top-up-right{
      display: flex;
      overflow: hidden;
-     margin-bottom: 20px;
+     margin: 45px 5px;
      border-radius: 15px;
     }
     
     .main-container-right-top-up-right>img{
         display: block;
-        width:300px;
+        height:150px;
+        width:100%;
         transition: 2s;
     }
     
@@ -833,7 +834,7 @@ padding-bottom: 40px;
     }
 
 
-@media (min-width:400px) and (max-width:900px){
+@media (min-width:501px) and (max-width:1050px){
    /* nav */
     
    .nav-container{
@@ -955,9 +956,9 @@ padding-bottom: 40px;
     
     .main-container-left-item3>img{
         display: block;
-        /* width:100%; */
         transition:2s;
         height: 300px;
+        width:100%;
     }
     
     .main-container-left-item4{
@@ -1062,7 +1063,7 @@ padding-bottom: 40px;
        margin: 0 5px;
        background-color:rgb(151,108,84) ;
        border-radius: 20px;
-       width:45%;
+       width:49%;
     }
     
     .main-container-right-bottom-left:hover img{
@@ -1154,7 +1155,7 @@ padding-bottom: 40px;
         margin: 0 5px;
         background-color:rgb(181,163,141);
         border-radius: 20px;
-        width:50%;
+        width:49%;
     }
     
     .main-container-right-bottom-right:hover img{
@@ -1251,7 +1252,7 @@ padding-bottom: 40px;
 
 
 
-@media (min-width:901px){
+@media (min-width:1051px){
     
 .nav-container{
     display: flex;
@@ -1607,10 +1608,9 @@ padding-bottom: 40px;
 .main-container-right-bottom-right-1-right{
     display: flex;
     width:100px;
-    margin-top: 10px;
+    margin: 17px 0;
     margin-right: 20px;
     border-radius: 50%;
-    padding-bottom: 30px;
     overflow: hidden;
 }
 
